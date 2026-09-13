@@ -1,4 +1,4 @@
-# Apartment 422 · Santa Ponsa
+# Caesars Apartment · Santa Ponsa
 
 Statische Info-Seite zum Apartment – für Freunde und Familie.
 Kein Build, kein Framework, keine externen Abhängigkeiten (keine Google Fonts,
