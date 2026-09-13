@@ -107,8 +107,9 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 img.qr{width:100%;max-width:230px;margin:2px auto 0;border-radius:12px}
 .qrhint{font-size:14px;color:var(--dim);text-align:center;margin:10px 0 18px}
 .btn{
-  display:block;width:100%;margin:12px 0 0;padding:13px;border:0;border-radius:14px;
-  background:var(--acc);color:#fff;font-family:inherit;font-size:16px;font-weight:600;
+  display:block;margin:12px 0 0;padding:13px;border:0;border-radius:14px;
+  background:var(--acc);color:#fff;font-size:16px;font-weight:600;
+  text-align:center;text-decoration:none;
 }
 .btn:active{opacity:.7}
 @media (prefers-color-scheme:dark){.btn{color:#08282c}}
