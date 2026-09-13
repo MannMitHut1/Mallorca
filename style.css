@@ -58,6 +58,8 @@ h1.page{font-size:clamp(27px,8vw,34px);letter-spacing:-.02em;margin:16px 0 5px}
   background:var(--tint);border-radius:11px;padding:6px;box-sizing:content-box}
 .tile b{display:block;margin:9px 0 1px;font-size:16px;font-weight:600;letter-spacing:-.01em}
 .tile span{display:block;font-size:13px;color:var(--dim);line-height:1.35}
+.tile.wide{grid-column:1/-1;display:flex;align-items:center;gap:14px}
+.tile.wide b{margin:0}
 .tile.small{padding:13px}
 .tile.small b{margin:0;font-size:15px}
 @media (hover:hover){.tile:hover{transform:translateY(-3px);box-shadow:var(--shx)}}

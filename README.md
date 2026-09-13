@@ -10,7 +10,8 @@ kein JavaScript). Nur HTML, eine CSS-Datei und Bilder.
 | --- | --- |
 | `index.html` | Startseite mit Kacheln und horizontaler Galerie (Vollbild beim Antippen) |
 | `expose.html` | Apartment, CAESARS, Umgebung, Anfahrt, Kontakt |
-| `infos.html` | Ausstattung, Technik, WLAN, Baden, Mobilität, Baby, House Rules |
+| `infos.html` | Versorgung, WLAN, Baden, Mobilität, Baby, House Rules |
+| `ausstattung.html` | Küche, Möbel, Wäsche, Technik, Unterhaltung, Strand-Equipment, Baby |
 | `checkin.html` | Check-in-Liste |
 | `checkout.html` | Check-out-Liste |
 | `impressum.html` | Impressum |
