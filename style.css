@@ -96,6 +96,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
   border:1.7px solid var(--acc);
 }
 .check li b{display:block}
+.check img{margin:8px 0 0;border-radius:12px}
 
 
 .btn{
