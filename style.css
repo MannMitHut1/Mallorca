@@ -1,13 +1,15 @@
 /* Apartment 422 – Santa Ponsa. Mobile first, keine externen Abhängigkeiten. */
 :root{
-  --bg:#f6f2f8; --card:#fff; --txt:#241d2b; --dim:#6b6075; --line:#e8e0ee;
-  --acc:#7d4f9c; --tint:#f1e7f6; --bar:rgba(246,242,248,.8);
+  --bg:#fff; --card:#f6effb; --tile:#e9dcf5; --chip:#fff;
+  --txt:#241d2b; --dim:#6b6075; --line:#e8e0ee;
+  --acc:#7d4f9c; --tint:#e8dcf4; --bar:rgba(255,255,255,.82);
   --sh:0 1px 2px rgba(45,25,60,.06), 0 10px 24px -14px rgba(45,25,60,.20);
   --shx:0 2px 6px rgba(45,25,60,.08), 0 18px 36px -16px rgba(45,25,60,.30);
   --r:20px;
 }
 @media (prefers-color-scheme:dark){
-  :root{--bg:#0f0b13; --card:#1c1622; --txt:#f4f0f7; --dim:#a598b0; --line:#2d2436;
+  :root{--bg:#0f0b13; --card:#1c1622; --tile:#271d35; --chip:#3b2f4d;
+        --txt:#f4f0f7; --dim:#a598b0; --line:#2d2436;
         --acc:#c9a7e6; --tint:#2b2038; --bar:rgba(15,11,19,.75);
         --sh:0 1px 2px rgba(0,0,0,.6); --shx:0 12px 30px rgba(0,0,0,.7);}
 }
@@ -49,13 +51,13 @@ h1.page{font-size:clamp(27px,8vw,34px);letter-spacing:-.02em;margin:16px 0 5px}
 /* Kacheln */
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 22px}
 .tile{
-  display:block;padding:13px;border-radius:var(--r);background:var(--card);
+  display:block;padding:13px;border-radius:var(--r);background:var(--tile);
   box-shadow:var(--sh);text-decoration:none;color:inherit;
   transition:transform .22s ease, box-shadow .22s ease;
 }
 .tile svg{width:26px;height:26px;stroke:var(--acc);stroke-width:1.7;fill:none;
   stroke-linecap:round;stroke-linejoin:round;
-  background:var(--tint);border-radius:11px;padding:6px;box-sizing:content-box}
+  background:var(--chip);border-radius:11px;padding:6px;box-sizing:content-box}
 .tile b{display:block;margin:9px 0 1px;font-size:16px;font-weight:600;letter-spacing:-.01em}
 .tile span{display:block;font-size:13px;color:var(--dim);line-height:1.35}
 .tile.wide{grid-column:1/-1;display:flex;align-items:center;gap:14px}
@@ -84,7 +86,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 
 /* Sprungmarken */
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
-.chips a{background:var(--card);box-shadow:var(--sh);border-radius:999px;padding:7px 13px;
+.chips a{background:var(--tile);box-shadow:var(--sh);border-radius:999px;padding:7px 13px;
   font-size:14px;text-decoration:none;color:var(--txt)}
 .chips a:active{transform:scale(.96)}
 
@@ -97,15 +99,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 }
 .check li b{display:block}
 
-/* WLAN */
-.code{
-  display:block;background:var(--tint);border-radius:14px;padding:14px;margin:8px 0 0;
-  font:600 19px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  word-break:break-all;-webkit-user-select:all;user-select:all;color:var(--txt);
-}
 
-img.qr{width:100%;max-width:230px;margin:2px auto 0;border-radius:12px}
-.qrhint{font-size:14px;color:var(--dim);text-align:center;margin:10px 0 18px}
 .btn{
   display:block;margin:12px 0 0;padding:13px;border:0;border-radius:14px;
   background:var(--acc);color:#fff;font-size:16px;font-weight:600;
