@@ -118,7 +118,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 .strip .plan img,.lb.plan img{object-fit:contain;background:#fff}
 img.plan{background:#fff;border-radius:12px}
 .planbox{display:flex;justify-content:center}
-.planbox img{width:88px;margin:0}
+.planbox img{width:106px;margin:0}
 @media (hover:hover){.strip a:hover img{transform:scale(1.04);transition:transform .3s ease}}
 
 .lb{position:fixed;inset:0;z-index:50;display:none;margin:0;background:#000}
