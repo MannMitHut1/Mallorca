@@ -117,6 +117,9 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 .strip img{aspect-ratio:4/3;object-fit:cover;width:100%}
 .strip .plan img,.lb.plan img{object-fit:contain;background:#fff}
 img.plan{background:#fff;border-radius:12px}
+.planbox{display:flex;gap:14px;align-items:flex-start}
+.planbox p{flex:1;margin:0}
+.planbox img{width:88px;margin:0}
 @media (hover:hover){.strip a:hover img{transform:scale(1.04);transition:transform .3s ease}}
 
 .lb{position:fixed;inset:0;z-index:50;display:none;margin:0;background:#000}
