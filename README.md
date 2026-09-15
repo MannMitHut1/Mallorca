@@ -21,6 +21,12 @@ kein JavaScript). Nur HTML, eine CSS-Datei und Bilder.
 Bilder liegen in `bilder/`, das Styling komplett in `style.css`. Die Seite kommt
 ohne eine Zeile JavaScript aus.
 
+Die Schrift ist **Figtree** unter der SIL Open Font License und liegt selbst
+gehostet in `schrift/` – nichts wird von Google oder einem CDN nachgeladen.
+Die Datei ist auf die tatsächlich gebrauchten Zeichen verkleinert (20 KB) und
+enthält die Lizenzangaben in ihren Metadaten; `schrift/OFL.txt` liegt
+zusätzlich daneben.
+
 Jede Seite trägt eine Content Security Policy (`default-src 'none'`), die nur
 Inhalte aus dem eigenen Verzeichnis zulässt – fremde Skripte, Schriften oder
 Zählpixel können also nicht nachgeladen werden, auch nicht versehentlich.
