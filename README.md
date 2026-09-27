@@ -8,10 +8,9 @@ kein JavaScript). Nur HTML, eine CSS-Datei und Bilder.
 
 | Datei | Inhalt |
 | --- | --- |
-| `index.html` | Startseite mit Kacheln und horizontaler Galerie (Vollbild beim Antippen) |
+| `index.html` | Startseite mit Kacheln und horizontaler Galerie (Vollbild beim Antippen); „Unsere Tipps" öffnet direkt die Google-Maps-Liste |
 | `apartment.html` | Räume, Balkon, Grundriss, CAESARS, Anfahrt, Kontakt |
 | `infos.html` | Versorgung, WLAN, Baden, Mobilität, Baby, House Rules |
-| `tipps.html` | Karte (Google-Maps-Liste), Strände & Ausflüge, Aktivitäten, Bars & Restaurants, Massage |
 | `ausstattung.html` | Küche, Möbel, Wäsche, Technik, Unterhaltung, Strand-Equipment, Baby |
 | `checkin.html` | Check-in-Liste |
 | `checkout.html` | Check-out-Liste |
