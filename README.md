@@ -11,7 +11,7 @@ kein JavaScript). Nur HTML, eine CSS-Datei und Bilder.
 | `index.html` | Startseite mit Kacheln und horizontaler Galerie (Vollbild beim Antippen) |
 | `apartment.html` | Räume, Balkon, Grundriss, CAESARS, Anfahrt, Kontakt |
 | `infos.html` | Versorgung, WLAN, Baden, Mobilität, Baby, House Rules |
-| `tipps.html` | Unsere Liste (Google Maps), Strände & Ausflüge, Aktivitäten, Bars & Restaurants, Massage |
+| `tipps.html` | Karte (Google-Maps-Liste), Strände & Ausflüge, Aktivitäten, Bars & Restaurants, Massage |
 | `ausstattung.html` | Küche, Möbel, Wäsche, Technik, Unterhaltung, Strand-Equipment, Baby |
 | `checkin.html` | Check-in-Liste |
 | `checkout.html` | Check-out-Liste |
