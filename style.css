@@ -2,7 +2,7 @@
 :root{
   --bg:#fff; --card:#eaf4f6; --tile:#d6ebee; --chip:#ffdc7a;
   --txt:#10272b; --dim:#54686c; --line:#d7e8ea;
-  --acc:#116e79; --tint:#fff3d1; --bar:rgba(255,255,255,.82);
+  --acc:#116e79; --tint:#fff3d1; --warm:#ffe9ad; --bar:rgba(255,255,255,.82);
   --sh:0 1px 2px rgba(8,50,56,.06), 0 10px 24px -14px rgba(8,50,56,.22);
   --shx:0 2px 6px rgba(8,50,56,.08), 0 18px 36px -16px rgba(8,50,56,.32);
   --r:20px;
@@ -10,7 +10,7 @@
 @media (prefers-color-scheme:dark){
   :root{--bg:#0b1215; --card:#132124; --tile:#172f34; --chip:#6b5210;
         --txt:#eef5f6; --dim:#9aabaf; --line:#22373b;
-        --acc:#4fd0de; --tint:#3a2d0d; --bar:rgba(11,18,21,.75);
+        --acc:#4fd0de; --tint:#3a2d0d; --warm:#40320e; --bar:rgba(11,18,21,.75);
         --sh:0 1px 2px rgba(0,0,0,.6); --shx:0 12px 30px rgba(0,0,0,.7);}
 }
 @font-face{
@@ -66,6 +66,7 @@ h1.page{font-size:clamp(27px,8vw,34px);letter-spacing:-.02em;margin:16px 0 5px}
   background:var(--chip);border-radius:11px;padding:6px;box-sizing:content-box}
 .tile b{display:block;margin:9px 0 1px;font-size:16px;font-weight:600;letter-spacing:-.01em}
 .tile span{display:block;font-size:13px;color:var(--dim);line-height:1.35}
+.tile.warm{background:var(--warm);--chip:var(--bg)}   /* Check-in/-out */
 @media (hover:hover){.tile:hover{transform:translateY(-3px);box-shadow:var(--shx)}}
 .tile:active{transform:scale(.97)}
 
