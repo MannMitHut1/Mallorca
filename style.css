@@ -120,7 +120,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 }
 .strip a{flex:0 0 78%;scroll-snap-align:center;border-radius:14px;overflow:hidden;box-shadow:var(--sh)}
 .strip img{aspect-ratio:4/3;object-fit:cover;width:100%}
-.strip .plan img,.lb.plan img{object-fit:contain;background:#fff}
+.lb.plan img{object-fit:contain;background:#fff}
 img.plan{background:#fff;border-radius:12px}
 .planbox{display:flex;justify-content:center}
 .planbox img{width:106px;margin:0}
