@@ -85,7 +85,7 @@ h2.sec span{font-weight:400;font-size:14px;color:var(--dim)}
 .eyebrow{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin:0 0 6px}
 .note{background:var(--tint);border-radius:14px;padding:11px 12px;margin:10px 0 0;font-size:15px}
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
-.pair img{margin:0}
+.pair img{margin:0;aspect-ratio:3/4;object-fit:cover}   /* Paare immer gleich hoch */
 
 /* Sprungmarken */
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
